@@ -152,7 +152,7 @@ margin-left: 1%;
 .colonna3 .immagine3{
     background-image:url(./img/img-3.jpg);
 /* background-repeat: no-repeat; */
-  background-size:cover;
+object-fit:cover ;
   background-position: center;
   width: 100%;
   height: 131px;
