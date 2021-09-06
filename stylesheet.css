@@ -40,39 +40,78 @@ nav a{
     text-decoration:none;
     margin-top: 5px;
 }
-
-
 .rettangolo1{
-    height: 300px; 
+    height: 350px; 
    margin-top: 30px;
    overflow: hidden;
    border-radius: 10px;
-
 }
-
-.rettangolo1 img{
-    height: 600px;
-    width:;
+/* .rettangolo1 img{
+    /* height: 600px; */
+    /* width:;
     vertical-align: super;
-    
+    background-size: 600px 700px;
+    text-align: center;
+     */ 
+.rettangolo1{
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-color: hsl(0, 2%, 75%);
+  background-blend-mode: multiply;
+color: white ;
 }
 
+.testo{
+    margin-bottom: 0%;
+    margin-top: 210px;
+    margin-left: 40px;
+    margin-right: 301px;
+}
+
+.testo .infogenerali{
+    font-size:12px;
+
+}
 
 .rettangolo2{
-    background-color:rgba(171, 207, 231, 1) ;
+    background-color: white ;
     height:55px;
-    margin-top: 20px;
-    
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: black;
 }
+.sottotitolo{
+    color:gray ;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 .rettangolo3{
-    background-color:rgba(0, 134, 255, 1) ;
+    background-color:white ;
     height: 300px;
 }
-
-
+.colonna1 .immagine1{
+background-image:url(./img/img-1.jpg);
+/* background-repeat: no-repeat; */
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 131px;
+  background-color: hsl(0, 2%, 75%);
+  background-blend-mode: multiply;
+  border-radius: 8%;
+}
 .colonna1{
-    background-color: rgba(171, 207, 231, 1) ;
     width: 20%;
     float: left;
     height: 272px;
@@ -81,15 +120,27 @@ margin-bottom: 10px;
 margin-right: 1%;
 }
 .colonna2{
-    background-color: rgba(171, 207, 231, 1);
 width: 58%;
 height: 272px;
 float:left;
 margin-top: 15px;
 margin-right: 0%;
 }
+
+.colonna2 .immagine2 {
+    background-image:url(./img/banner-2.jpg);
+    /* background-repeat: no-repeat; */
+      background-size:cover;
+      background-position: center;
+      width: 100%;
+      height: 131px;
+      background-color: hsl(0, 2%, 75%);
+      background-blend-mode: multiply;
+      border-radius: 11px;
+}
+
+
 .colonna3{
-    background-color: rgba(171, 207, 231, 1);
 width: 20%;
 height: 272px;
 float: right;
@@ -98,6 +149,25 @@ margin-bottom: 10px;
 margin-left: 1%;
 }
 
+.colonna3 .immagine3{
+    background-image:url(./img/img-3.jpg);
+/* background-repeat: no-repeat; */
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 131px;
+  background-color: hsl(0, 2%, 75%);
+  background-blend-mode: multiply;
+  border-radius: 8%;
+}
+h4{
+    color: black;
+}
+
+.paragrafi{color:gray ;
+    font-size: 12px;
+
+}
 .sidebar{
     background-color: rgba(171, 207, 231, 1);
     height:200px ;
@@ -105,7 +175,7 @@ margin-left: 1%;
 
 /* FOOTER */
 .copyright{
-    background-color: rgba(136, 1, 254, 1);
     height: 40px;
     margin-top: 10px;
+    text-align: center;
 }
